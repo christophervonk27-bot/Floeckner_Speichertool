@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Floeckner_Speichertool/static/css/main.c4638509.css",
-    "main.js": "/Floeckner_Speichertool/static/js/main.93d9a84a.js",
+    "main.css": "/Floeckner_Speichertool/static/css/main.d50713a8.css",
+    "main.js": "/Floeckner_Speichertool/static/js/main.90a8105c.js",
     "index.html": "/Floeckner_Speichertool/index.html",
-    "main.c4638509.css.map": "/Floeckner_Speichertool/static/css/main.c4638509.css.map",
-    "main.93d9a84a.js.map": "/Floeckner_Speichertool/static/js/main.93d9a84a.js.map"
+    "main.d50713a8.css.map": "/Floeckner_Speichertool/static/css/main.d50713a8.css.map",
+    "main.90a8105c.js.map": "/Floeckner_Speichertool/static/js/main.90a8105c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4638509.css",
-    "static/js/main.93d9a84a.js"
+    "static/css/main.d50713a8.css",
+    "static/js/main.90a8105c.js"
   ]
 }
