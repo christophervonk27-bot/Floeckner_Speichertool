@@ -151,8 +151,8 @@ export default function App() {
     return storageSizes.map((size) => {
       const usableDischarge = size * inputs.fullCycles * inputs.batteryEfficiency;
       const additionalConsumption = Math.min(usableDischarge, inputs.pvSurplus, inputs.totalConsumption);
-      const restGridConsumption = Math.max(inputs.totalConsumption - additionalConsumption, 0);
-      const restFeedIn = Math.max(inputs.pvSurplus - additionalConsumption, 0);
+      const restGridConsumption = Math.max(inputs.gridConsumption - additionalConsumption, 0);
+      const restFeedIn = Math.max(inputs.pvSurplus - (additionalConsumption / inputs.batteryEfficiency), 0);
       const grossSavings = additionalConsumption * savingsPerKWh;
       const investment = size * inputs.variableStorageCost + inputs.fixedStorageCost;
       const maintenance = investment * inputs.maintenanceRate;
